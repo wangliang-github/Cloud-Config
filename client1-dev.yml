@@ -3,25 +3,9 @@ server:
 spring:
   application:
     name: client1
-  datasource:
-    driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/demo?serverTimezone=UTC&zeroDateTimeBehavior=convertToNull
-    username: root
-    password: root
 eureka:
   client:
     service-url:
       defaultZone: http://localhost:8601/eureka/
-#mybatis插件
-mybatis:
-  mapper-locations: classpath:mapper/*.xml
-  type-aliases-package: com.wangliang.client1.entity
-
-#分页插件
-pagehelper:
-  helper-dialect: mysql
-  reasonable: true
-  support-methods-arguments: true
-  params: count=countSql
 test: 
   str1: 123456
