@@ -23,3 +23,5 @@ pagehelper:
   reasonable: true
   support-methods-arguments: true
   params: count=countSql
+test: 
+  str1: 123456
