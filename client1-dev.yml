@@ -8,4 +8,4 @@ eureka:
     service-url:
       defaultZone: http://localhost:8601/eureka/
 test: 
-  str1: 123456
+  str1: 1234567890
